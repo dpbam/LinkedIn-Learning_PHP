@@ -18,10 +18,10 @@ comment */
     define('VERSION', 1.1);
     echo VERSION;
     // case sensitive
-    echo version; // will not work
+    // echo version; // will not work
     // can't assign a new value to the variable
-    VERSION = 1.2; // will not work
-    define('VERSION', 1.2); // Also will not work
+    // echo VERSION = 1.2; // will not work
+    // define('VERSION', 1.2); // Also will not work
 
     // double vs. single quotes
     $name = "Joe";
@@ -37,21 +37,7 @@ comment */
     echo "This is line 1 \n";
     echo "This is line 2"; // these will print on different lines (they might render in the browser together, but check the source)
 
-    // Arrays
-
-    // indexable arrays - use numbers as keys, numbered lists that start at 0
-    // associative arrays - use strings as keys, Allows you to turn the numbered index into a string
-
-    Home Towns [
-        'Joe' => 'Middletown, NY'
-        'Erin' => 'Westchester, PA'
-        'Dave' => 'Exton, PA'
-        'Brian' => 'Grand Rapids, MI'
-    ]
-
-    // Multidemensional Arrays - an array of arrays
-
-
+    
 
 
 ?>
